@@ -1,9 +1,9 @@
+# frozen_string_literal: true
+
 puts "Hello\nWorld"
 puts 'Hello\nWorld'
 
+phrase = 'Hello World'
 
-phrase = "Hello World"
-
-
-puts "#{phrase}"
-puts '#{phrase}'
+puts phrase.to_s
+puts phrase.to_s

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 puts "Hi, what's your name?"
 name = gets.chomp
 

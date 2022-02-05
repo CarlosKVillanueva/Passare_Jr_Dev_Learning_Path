@@ -1,5 +1,7 @@
-#String to Integer
-str = "5"
+# frozen_string_literal: true
+
+# String to Integer
+str = '5'
 p str
 p str.class
 
@@ -10,17 +12,16 @@ p str.to_f.class
 
 puts
 
-#Integer to String
-number = 10 
+# Integer to String
+number = 10
 
 p number.class
 p number.to_s
 p number.to_s.class
 
-
 # Float to Integer
 
-puts 
+puts
 
 pi = 3.14159
 

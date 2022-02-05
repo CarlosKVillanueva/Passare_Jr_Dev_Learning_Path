@@ -1,18 +1,20 @@
-p "hello world!".length
-p "hello world!".upcase
-p "HELLO WORLD!".downcase
+# frozen_string_literal: true
 
-name = "Kaio Villanueva"
+p 'hello world!'.length
+p 'hello world!'.upcase
+p 'HELLO WORLD!'.downcase
+
+name = 'Kaio Villanueva'
 
 p name.upcase, name.downcase, name.length
 
-puts 
+puts
 
 p 10
-p -1.next
+p(-1.next)
 
 puts
 
-puts "Hello World"
-puts "Hello World".inspect
-p "Hello World"
+puts 'Hello World'
+puts 'Hello World'.inspect
+p 'Hello World'

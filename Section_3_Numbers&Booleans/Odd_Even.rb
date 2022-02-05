@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 p 1.next
 p 1.to_s
 

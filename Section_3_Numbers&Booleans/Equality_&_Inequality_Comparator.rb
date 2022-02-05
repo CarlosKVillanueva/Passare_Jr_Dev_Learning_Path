@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 p 10 == 10
 p 10 == 20
 
@@ -8,18 +10,15 @@ c = 30
 p a == c
 p a == b
 
-p "5" == 5
-
+p '5' == 5
 
 p 5 == 5.0
-
 
 puts
 
 p 4 != 10
-p "Hello0" != "Goodbye"
+p 'Hello0' != 'Goodbye'
 
-p "Hello".downcase != "hello".downcase
+p 'Hello'.downcase != 'hello'.downcase
 
-p "123" != 123
-
+p '123' != 123
